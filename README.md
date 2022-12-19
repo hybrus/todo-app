@@ -1,3 +1,7 @@
+# Versions
+Node 16, Vue 3
+
+
 # default
 
 ## Project setup
