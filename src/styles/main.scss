@@ -1,0 +1,37 @@
+@use "vuetify";
+
+html,
+body {
+  height: 100%;
+  background: #eee;
+
+  #app {
+    height: 100%;
+    display: flex;
+
+    .todo {
+      margin: auto;
+
+      .tasks {
+        list-style: none;
+        padding: 0;
+        width: 25vw;
+        height: 50vh;
+        overflow-y: auto;
+        .complete {
+          text-decoration: line-through;
+        }
+      }
+    }
+  }
+}
+
+.task-enter-active,
+.task-leave-active {
+  transition: opacity 0.75s ease;
+}
+
+.task-enter-from,
+.task-leave-to {
+  opacity: 0;
+}
