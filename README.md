@@ -21,7 +21,7 @@ The Todo App allows users to manage their tasks in the following ways:
 
 ### Usage
 
-To use the Todo App, users can download the repository and run the `npm install` command to install the required dependencies. Once the dependencies have been installed, users can run the application using the `npm run serve` command.
+To use the Todo App, users can download the repository and run the `npm install` command to install the required dependencies. Once the dependencies have been installed, users can run the application using the `npm run dev` command.
 
 Once the application is running, users can add new tasks to the pending tasks list by typing in the input field and pressing the "Add" button. Users can then mark tasks as completed by clicking on the checkbox next to the task name. Checked tasks will be moved to the completed tasks list. Similarly, users can mark tasks as pending again by clicking on the checkbox again. Unchecked tasks will be moved back to the pending tasks list.
 
